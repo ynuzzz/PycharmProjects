@@ -20,7 +20,7 @@ from plotly.subplots import make_subplots
 
 # Veri yükleme ve ön işleme fonksiyonu
 def get_data():
-    dataframe = pd.read_excel('/Users/yunusseyrek/PycharmProjects/Final_Projesi_Miuul/jobs_in_data.xltx')
+    dataframe = pd.read_excel('Final_Projesi_Miuul/jobs_in_data.xltx')
     return dataframe
 
 # Veriyi yükle
