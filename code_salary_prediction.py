@@ -18,7 +18,7 @@ import warnings
 warnings.filterwarnings('ignore')
 pd.set_option('display.max_columns', None)
 
-df = pd.read_excel('Final_Projesi_Miuul/jobs_in_data.xltx')
+df = pd.read_excel('jobs_in_data.xltx')
 df.head()
 
 
